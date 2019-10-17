@@ -1,0 +1,23 @@
+@font-face {
+  font-family: AvenirNext;
+  font-weight:normal;
+  src: url('../fonts/AvenirNext-Regular.eot') format('embedded-opentype');
+  src: url('../fonts/AvenirNext-Regular.woff') format('woff');
+  src: url('../fonts/AvenirNext-Regular.ttf') format('truetype');
+  font-display: fallback;
+}
+@font-face {
+  font-family: AvenirNext-Bold;
+  font-weight:normal;
+  src: url('../fonts/AvenirNext-Bold.eot') format('embedded-opentype');
+  src: url('../fonts/AvenirNext-Bold.woff') format('woff');
+  src: url('../fonts/AvenirNext-Bold.ttf') format('truetype');
+  font-display: fallback;
+}
+@font-face {
+  font-family: AvenirNext-DemiBold;
+  font-weight:normal;
+  src: url('../fonts/AvenirNext-DemiBold.woff') format('woff');
+  src: url('../fonts/AvenirNext-DemiBold.ttf') format('truetype');
+  font-display: fallback;
+}

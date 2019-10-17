@@ -1,0 +1,112 @@
+@import "color";
+
+@mixin clearfix() {
+  &::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+}
+
+@mixin clearboth() {
+  &::before,
+  &::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+  &:-moz-placeholder {
+    @content;
+  }
+  &::-moz-placeholder {
+    @content;
+  }
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
+
+@mixin font-awesome {
+  font-family: 'Font Awesome 5 Free';
+}
+
+@mixin font-regular {
+  font-family: AvenirNext, sans-serif;
+}
+
+@mixin font-bold {
+  font-family: AvenirNext-Bold, sans-serif;
+  font-weight: 400;
+  ::ng-deep .global-demi-bold &,
+  ::ng-deep .desktop.firefox &,
+  ::ng-deep .desktop.safari & {
+    font-family: AvenirNext-DemiBold, sans-serif;
+  }
+}
+
+@mixin font-demi-bold {
+  font-family: AvenirNext-DemiBold, sans-serif;
+}
+
+.font-awesome {
+  @include font-awesome();
+}
+
+.font-regular {
+  @include font-regular();
+}
+
+.font-bold {
+  @include font-bold();
+}
+
+.font-demi-bold {
+  @include font-demi-bold();
+}
+
+//http://tobiasahlin.com/blog/how-to-animate-box-shadow/
+@mixin animated-box-shadow($border-radius,
+ $normal-shadow-color:"rgba(0, 0, 0, 0.1)",
+  $after-shadow-color:"rgba(129,152,213, 0.3)") {
+  position: relative;
+  background-color: $color-white;
+  border-radius: $border-radius;
+  box-shadow: 0 3px 15px unquote($normal-shadow-color);
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  &:not(.disabled) {
+    cursor: pointer;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    border-radius: $border-radius;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 30px unquote($after-shadow-color);
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  &:hover {
+    &:not(.disabled) {
+      -webkit-transform: scale(1.25, 1.25);
+      transform: scale(1.25, 1.25);
+      z-index: 2;
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+}

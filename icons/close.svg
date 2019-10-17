@@ -1,0 +1,9 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="50" height="50">
+<rect width="50" height="50" fill="#4A4A4A"/>
+</mask>
+<g mask="url(#mask0)">
+<rect width="63.0494" height="2" rx="1" transform="matrix(0.707016 0.707198 -0.694794 0.719209 5.20996 0)" fill="#4A4A4A"/>
+<rect width="63.0494" height="2" rx="1" transform="matrix(-0.707016 0.707198 0.694794 0.719209 44.5771 0)" fill="#4A4A4A"/>
+</g>
+</svg>

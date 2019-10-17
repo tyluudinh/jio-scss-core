@@ -1,0 +1,125 @@
+$pd-width: 3.5rem;
+$width-cell: calc(100% - 3.5rem);
+.jio-table {
+  thead {
+    background-color: #E8F1FF;
+    th {
+      border: none;
+      color: #111C63;
+      font-family: AvenirNext-DemiBold;
+      &:last-child {
+        padding-right: $pd-width;
+      }
+      &.first-have-text {
+        padding-left: $pd-width;
+      }
+    }
+  }
+  tbody {
+    tr {
+      &:first-child {
+        td {
+          border-top: none;
+          &:first-child, &:last-child {
+            &:after {
+              border-bottom: unset !important;
+            }
+          }
+        }
+      }
+      td {
+        &:first-child {
+          position: relative;
+          border-bottom: none;
+          border-top: none;
+          padding-left: $pd-width;
+          &:not(.not-after) {
+            &:after {
+              content: '';
+              position: absolute;
+              border-bottom: 1px solid #D7DBE5;
+              width: $width-cell;
+              top: 0;
+              right: 0;
+            }
+          }
+        }
+        &:last-child {
+          position: relative;
+          border-bottom: none;
+          border-top: none;
+          padding-right: $pd-width;
+          &:not(.not-after) {
+            &:after {
+              content: '';
+              position: absolute;
+              border-bottom: 1px solid #D7DBE5;
+              width: $width-cell;
+              top: 0;
+              left: 0;
+            }
+          }
+        }
+        height: 70px !important;
+        padding-top: initial;
+        padding-bottom: inherit;
+      }
+      &:last-child {
+        td {
+          border-bottom: 1px solid #D7DBE5;
+          &:first-child {
+            border-bottom: none;
+            &:not(.not-before) {
+              &:before {
+                content: '';
+                position: absolute;
+                border-bottom: 1px solid #D7DBE5;
+                width: $width-cell;
+                bottom: -1px;
+                right: 0;
+              }
+            }
+          }
+          &:last-child {
+            border-bottom: none;
+            &:not(.not-before) {
+              &:before {
+                content: '';
+                position: absolute;
+                border-bottom: 1px solid #D7DBE5;
+                width: $width-cell;
+                bottom: -1px;
+                left: 0;
+              }
+            }
+          }
+        }
+      }
+      &:not(.not-hover) {
+        &:hover {
+          background: #FFFFFF;
+          box-shadow: 5px 8px 20px #CCD6EF;
+          -webkit-box-shadow: 5px 8px 20px #CCD6EF;
+          -moz-box-shadow: 5px 8px 20px #CCD6EF;
+          -o-box-shadow: 5px 8px 20px #CCD6EF;
+          font-family: AvenirNext-Bold;
+          td {
+            border-top: none;
+            border-bottom: none;
+            &:first-child, &:last-child {
+              &:after {
+                border-bottom: none;
+              }
+            }
+          }
+        }
+      }
+      transition: opacity 0.5s linear;
+    }
+  }
+}
+.table-items-center {
+  td, th {
+    vertical-align: inherit;
+  }
+}

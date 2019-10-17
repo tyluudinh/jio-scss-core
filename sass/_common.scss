@@ -1,0 +1,58 @@
+@import "mixin";
+@import "color";
+@import "breakpoint";
+
+.separator-base {
+  width: 70px;
+  height: 8px;
+  margin-top: 17px;
+}
+
+.separator-white {
+  @extend .separator-base;
+  background-color: $color-white;
+}
+
+.separator-blue {
+  @extend .separator-base;
+  background-color: $color-primary-blue;
+}
+
+.margin-header {
+  margin-top: 110px;
+  display: block;
+}
+
+@media screen and (max-width: $grid-breakpoints-sm-max-575) {
+  /* start of phone styles */
+}
+
+@media screen and (max-width: $grid-breakpoints-lg-max-991) {
+  /* start of medium tablet styles: iPad, iPad Mini */
+  .separator-base {
+    height: 5px;
+  }
+}
+
+@media screen and (min-width: $grid-breakpoints-lg-min-992) and (max-width: $grid-breakpoints-xl-max-1199)  {
+  /* start of large tablet styles: iPad Pro */
+  .separator-base {
+    height: 6px;
+  }
+}
+
+.align-child-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden-element {
+  visibility: hidden;
+}
+.text-red {
+  color: $color-red-2;
+}
+.cursor-pointer {
+  cursor: pointer;
+}

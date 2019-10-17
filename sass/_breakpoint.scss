@@ -1,0 +1,13 @@
+$grid-breakpoints-xs-min: 0;
+$grid-breakpoints-sm-min-576: 576px;
+$grid-breakpoints-md-min-768: 768px;
+$grid-breakpoints-lg-min-992: 992px;
+$grid-breakpoints-ipad-pro: 1024px;
+$grid-breakpoints-xl-min-1200: 1200px;
+
+$grid-breakpoints-xs-max-0: $grid-breakpoints-xs-min - 1;
+$grid-breakpoints-sm-max-575: $grid-breakpoints-sm-min-576 - 1;
+$grid-breakpoints-md-max-767: $grid-breakpoints-md-min-768 - 1;
+$grid-breakpoints-lg-max-991: $grid-breakpoints-lg-min-992 - 1;
+$grid-breakpoints-xl-max-1199: $grid-breakpoints-xl-min-1200 - 1;
+$mobile-padding: 16px;

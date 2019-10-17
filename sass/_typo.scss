@@ -1,0 +1,287 @@
+@import "color";
+@import "mixin";
+@import "breakpoint";
+
+html {
+  &.ios {
+    backface-visibility: hidden;
+    &.freeze-scrolling {
+      overflow: hidden;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      position: fixed;
+    }
+    //.modal-backdrop.show {
+    //  display: none !important;
+    //}
+  }
+  overflow-x: hidden;
+}
+
+body {
+  font-family: AvenirNext, sans-serif;
+  font-size: 16px;
+  color: #4A4A4A;
+  -webkit-overflow-scrolling: touch;
+  &.no-header-footer {
+    .main-header,
+    footer.footer {
+      display: none;
+    }
+  }
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-weight: bold;
+}
+
+h1, .h1 {
+  font-size: 54px;
+}
+
+h2, .h2 {
+  font-size: 30px;
+}
+
+h3, .h3 {
+  font-size: 24px;
+}
+
+h4, .h4 {
+  font-size: 20px;
+}
+
+h5, .h5 {
+  font-size: 16px;
+}
+
+h6, .h6 {
+  font-size: 14px;
+}
+
+p, .p {
+  font-size: 16px;
+}
+
+.h10 {
+  font-size: 10px;
+}
+
+.fw100 {
+  font-weight: 100;
+}
+
+.fw200 {
+  font-weight: 200;
+}
+
+.fw300 {
+  font-weight: 300;
+}
+
+.fw400 {
+  font-weight: 400;
+}
+
+.fw500 {
+  font-weight: 500;
+}
+
+.fw600 {
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.margin-t-50 {
+  margin-top: 50px;
+}
+
+//text color
+.text-primary-black {
+  color: $color-text-primary-black;
+}
+
+.text-secondary-black {
+  color: $color-text-secondary-black;
+}
+
+.text-white {
+  color: $color-white;
+}
+
+.text-primary-blue {
+  color: $color-primary-blue;
+}
+
+.text-secondary-blue {
+  color: $color-text-primary-blue;
+}
+
+.text-primary-grey {
+  color: $color-text-primary-grey;
+}
+.text-underline {
+  text-decoration-line: line-through;
+}
+.text-primary-green {
+  color: $color-primary-teal-green;
+}
+.bg-primary-green {
+  background: $color-primary-teal-green;
+}
+.bg-primary-header {
+  background: $color-primary-header;
+}
+
+.text-error {
+  color: $color-red;
+}
+
+.text-header {
+  color: $color-header;
+}
+.text-line-through {
+  text-decoration: line-through;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.title-lg {
+  @include font-bold();
+  margin-top: 52px;
+  margin-bottom: 0;
+}
+.d-grid {
+  display: grid;
+}
+input {
+  &[type='text'], &[type='password']  {
+    height: 50px;
+    padding: 12px 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    ///* autoprefixer: off */
+    -webkit-box-orient: vertical;
+    ///* autoprefixer: on */
+  }
+  &:focus {
+
+  }
+}
+
+.keep-line-break {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+}
+p strong {
+  @include font-bold();
+}
+// region component specific override
+.two-font-type-title {
+  b {
+    @include font-bold();
+  }
+}
+.two-font-type-info {
+  b {
+    @include font-bold();
+  }
+}
+// endregion
+
+
+.heading-primary {
+  @include font-bold();
+  font-size: 36px;
+  line-height: 36px;
+  color: #4A4A4A;
+  position: relative;
+  padding-bottom: 36px;
+  margin-bottom: 40px;
+  &.white-style {
+    color: #fff;
+    &:after {
+      background: #fff;
+    }
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 50px;
+    background: #567FEA;
+  }
+  &.text-center {
+    &:after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  &.white:after {
+    background: white;
+  }
+}
+
+@media (max-width: $grid-breakpoints-lg-max-991) {
+  .heading-primary {
+    font-size: 28px;
+    line-height: normal;
+  }
+}
+
+@media (max-width: $grid-breakpoints-md-max-767) {
+  body {
+    font-size: 14px;
+  }
+  h1, .h1 {
+    font-size: 36px;
+  }
+
+  h2, .h2 {
+    font-size: 22px;
+  }
+
+  h3, .h3 {
+    font-size: 20px;
+  }
+
+  h4, .h4 {
+    font-size: 16px;
+  }
+
+  h5, .h5 {
+    font-size: 14px;
+  }
+
+  h6, .h6 {
+    font-size: 12px;
+  }
+
+  p, .p {
+    font-size: 14px;
+  }
+  .heading-primary {
+    font-size: 24px;
+    padding-bottom: 26px;
+    margin-bottom: 35px;
+    &:after {
+      width: 40px;
+    }
+  }
+}
+.pl-6 {
+  padding-left: 3.5rem;
+}
+.pr-6 {
+  padding-right: 3.5rem;
+}

@@ -1,0 +1,31 @@
+$animation: pulse 1s infinite ease-in-out;
+.placeholder-loading {
+  &__text {
+    height: 20px;
+    animation: $animation;
+    -webkit-animation: $animation;
+    -o-animation: $animation;
+    -moz-animation: $animation;
+  }
+  &__image {
+    height: 50px;
+    width: 50px;
+    animation: $animation;
+    -webkit-animation: $animation;
+    -o-animation: $animation;
+    -moz-animation: $animation;
+  }
+}
+
+
+@keyframes pulse {
+  0% {
+    background-color: rgba(165, 165, 165, 0.1)
+  }
+  50% {
+    background-color: rgba(165, 165, 165, 0.3)
+  }
+  100% {
+    background-color: rgba(165, 165, 165, 0.1)
+  }
+}

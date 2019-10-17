@@ -1,0 +1,313 @@
+@import "color";
+@import "typo";
+
+.btn {
+  border: none;
+  //box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
+  border-color: transparent!important;
+  outline: 0;
+  border-radius: 100px;
+  -webkit-transition: ease-in-out 0.2s;
+  -moz-transition: ease-in-out 0.2s;
+  -ms-transition: ease-in-out 0.2s;
+  -o-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.btn-base {
+  @include font-demi-bold();
+  padding: 10px 20px;
+  color: #fff;
+  &:hover,
+  &:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}
+.btn-primary {
+  @extend .btn-base;
+  background-color: $color-primary-blue;
+  border: 1px solid $color-primary-blue;
+}
+.btn-danger {
+  @extend .btn-base;
+  background-color: $color-red-2;
+  border: 1px solid $color-red-2;
+}
+.btn-primary-header {
+  @extend .btn-base;
+  background-color: $color-primary-header;
+  border: 1px solid $color-primary-header;
+}
+
+.btn-white-border-primary {
+  @extend .btn-base;
+  background-color: #fff;
+  border: 1px solid $color-primary-blue !important;
+  color: $color-primary-blue;
+  &:hover,
+  &:visited {
+    color: #fff;
+    text-decoration: none;
+    background-color: $color-primary-blue;
+  }
+}
+.btn-outline-border-error {
+  @extend .btn-base;
+  background-color: $color-white;
+  border: 1px solid $color-red !important;
+  color: $color-red;
+  &:hover,
+  &:visited {
+    color: $color-white;
+    text-decoration: none;
+    background-color: $color-red;
+  }
+}
+
+.btn-teal-green {
+  @extend .btn-base;
+  background-color: $color-primary-teal-green;
+  border: 1px solid $color-primary-teal-green;
+}
+
+.btn-teal-green {
+  //&:focus,
+  &:hover, &:active {
+    box-shadow: 0 0 0 0.2rem rgba(76, 225, 198, 0.25);
+    background-color: #30b5a1;
+    border: 1px solid #30b5a1;
+    color: #fff;
+  }
+}
+
+.btn-header {
+  @include font-demi-bold();
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 20px;
+  border: none;
+  appearance: none;
+  border-radius: 100px;
+  background: none;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    color: #fff;
+  }
+  &.btn-header-green {
+    background: $color-primary-teal-green;
+    &:hover {
+      box-shadow: 0 0 0 0.2rem rgba(76, 225, 198, 0.25);
+      background-color: #30b5a1;
+    }
+  }
+  &.btn-header-blue {
+    background: $color-primary-blue;
+    &:hover {
+      box-shadow: 0 0 0 0.2rem rgba(86, 127, 234, 0.25);
+      background-color: $color-primary-blue-darker;
+    }
+  }
+}
+.btn-white-green {
+  @include font-demi-bold();
+  background-color: #fff;
+  color: $color-primary-teal-green;
+  padding: 12px 20px;
+  box-shadow: none;
+  border: 1px solid #fff !important;
+  //&:focus,
+  &:hover,
+  &:active {
+    box-shadow: 0 0 0 0.2rem rgba(76, 225, 198, 0.25);
+    background: #2a9d8b;
+    color: #fff;
+    border: 1px solid #2a9d8b !important;
+  }
+}
+.btn-white-blue {
+  @include font-demi-bold();
+  background-color: #fff;
+  color: $color-primary-blue;
+  padding: 12px 20px;
+  box-shadow: none;
+  border: 1px solid #fff !important;
+  //&:focus,
+  &:hover,
+  &:active {
+    box-shadow: 0 0 0 0.2rem rgba(86, 127, 234, 0.25);
+    background: $color-primary-blue-darker;
+    color: #fff;
+    border: 1px solid $color-primary-blue-darker !important;
+  }
+}
+
+.btn-transparent-white-green {
+  @include font-demi-bold();
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff !important;
+  padding: 12px 20px;
+  box-shadow: none;
+  //&:focus,
+  &:hover,
+  &:active {
+    color: #fff;
+    background: #2a9d8b;
+    border-color: #2a9d8b !important;
+  }
+}
+
+.btn-transparent-white-blue {
+  @include font-demi-bold();
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff !important;
+  padding: 12px 20px;
+  box-shadow: none;
+  //&:focus,
+  &:hover,
+  &:active {
+    background: $color-primary-blue-darker;
+    border-color: $color-primary-blue-darker !important;
+    color: #fff;
+  }
+}
+.btn-transparent-header {
+  @include font-demi-bold();
+  color: $color-white;
+  background: transparent;
+  border: 1px solid $color-white !important;
+  padding: 12px 23px;
+  box-shadow: none;
+  //&:focus,
+  &:hover,
+  &:active {
+    &:not([disabled]) {
+      background: $color-white;
+      border-color: $color-white !important;
+      color: $color-primary-header;
+    }
+  }
+}
+.btn-transparent-blue {
+  @include font-demi-bold();
+  color: $color-primary-blue;
+  background: transparent;
+  border: 1px solid $color-primary-blue !important;
+  padding: 12px 23px;
+  box-shadow: none;
+  //&:focus,
+  &:hover,
+  &:active {
+    &:not([disabled]) {
+      background: $color-primary-blue-darker;
+      border-color: $color-primary-blue-darker !important;
+      color: #fff;
+    }
+  }
+}
+.btn-primary-border {
+  @extend .btn-base;
+  border: 1px solid #567fea !important;
+  color: #567fea;
+  background-color: transparent;
+  &:hover,
+  &:active {
+    color: #567fea;
+    box-shadow: 0 0 0 0.2rem rgba(#567fea, 0.25);
+  }
+}
+.btn-back {
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  font-size: 14px;
+  color: #999;
+  box-shadow: none;
+  background: none;
+  .fa-chevron-left {
+    margin-right: 12px;
+  }
+  &:hover,
+  &:active {
+    color: #000;
+  }
+  &.black {
+    color: #4a4a4a;
+    @include font-demi-bold();
+    &:hover,
+    &:active {
+      opacity: .8;
+    }
+  }
+}
+.hotline-btn {
+  background: #F1F5FA;
+  border-radius: 200px;
+  font-weight: 600;
+  line-height: 16px;
+  font-size: 18px;
+  color: #4A4A4A;
+  padding: 16px 17px;
+
+  //&:focus,
+  &:hover {
+    box-shadow: none;
+    outline: none;
+    text-decoration: none;
+  }
+}
+//button:hover {
+//  color: inherit!important;
+//}
+.btn-round {
+  background: #F1F5FA;
+  border-radius: 30px;
+}
+.btn-round:hover, .btn-round:active, .btn-round:focus, .btn-round:visited {
+  background: #ecf2f8;
+}
+.btn-lg {
+  padding: 18px 68px;
+  font-size: 16px;
+}
+.btn-view-stone {
+  padding: 7px 32px;
+}
+.btn-w-200 {
+  width: 200px;
+}
+.btn-reset {
+  padding: 0.25rem .5rem;
+  font-family: inherit;
+}
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+
+}
+
+@media screen and (max-width: 768px) {
+  /* start of medium tablet styles: iPad, iPad Mini */
+  .btn {
+    font-size: 14px;
+    padding: 10px 17px;
+  }
+
+  .btn-base {
+    padding: 9px 17px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* start of large tablet styles */
+
+}

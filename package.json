@@ -1,0 +1,10 @@
+{
+  "name": "jio-scss-core",
+  "version": "1.0.0",
+  "description": "Jio SCSS Core base on Bootstrap 4.0",
+  "main": "index.js",
+  "repository": "git@github.com:tyluudinh/jio-scss-core.git",
+  "author": "Ty Luu <ty.luu@jiohealth.comm>",
+  "license": "Only Jio's Dev can use it",
+  "private": true
+}

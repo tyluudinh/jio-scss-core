@@ -1,0 +1,130 @@
+@import "mixin";
+@import "color";
+
+[type='number'] {
+  -moz-appearance:textfield;
+}
+[type='text'] {
+  &.jio-control {
+    padding: 5px 20px;
+    height: 50px;
+    color: #4A4A4A;
+    border-radius: 5px;
+    @include placeholder {
+      color: #C4C4C4;
+    }
+    &.default {
+      color: #C4C4C4;
+    }
+  }
+}
+
+.was-validated .form-control:invalid,
+.form-control.is-invalid {
+  background: none;
+}
+
+.jio-select {
+  padding: 0 35px 0 20px;
+  //height: 50px;
+  //line-height: 50px;
+  background: url("../icons/select-indicator.svg") no-repeat right 15px center #fff;
+  -webkit-appearance: none;
+  appearance: none;
+  color: #4A4A4A;
+  border-radius: 5px;
+  &.default {
+    color: #C4C4C4;
+  }
+  &.active {
+    color: $color-text-primary-black;
+  }
+}
+
+.search-box {
+  position: relative;
+  .btn-search {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 14px 18px 12px;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    .fas {
+      font-size: 17px;
+      color: #4A4A4A;
+    }
+    &:hover,
+    &:focus {
+      box-shadow: 0 0 4px $color-primary-blue;
+      .fas {
+        color: #000;
+      }
+    }
+  }
+}
+.form-group  {
+  .phone-number {
+    position: relative;
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    .phone-prefix {
+      position: absolute;
+      left: 1px;
+      top: 1px;
+      bottom: 1px;
+      border-right: 1px solid #DADADA;
+      background: #F1F5FA;
+      box-sizing: border-box;
+      border-radius: 5px 0 0 5px;
+      color: #4A4A4A;
+      overflow: hidden;
+      padding: 13px 10px;
+      img {
+        margin: -3px 5px 0 0;
+      }
+    }
+    .form-control {
+      padding-left: 100px;
+    }
+  }
+}
+.district .form-control {
+  margin-bottom: 14px;
+}
+
+.is-require {
+  color: #ED4C4C;
+  margin: 8px 0 12px;
+}
+
+.is-invalid {
+  select, input[type="text"] {
+    border-color: #ED4C4C;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba(220,53,69,.25);
+    }
+  }
+}
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+}
+
+@media (max-width: $grid-breakpoints-md-max-767) {
+  .jio-select {
+    padding: 0 25px 0 10px;
+    height: 42px;
+    line-height: 42px;
+    background-size: 8px auto;
+    background-position: right 10px center;
+    font-size: 14px;
+  }
+}

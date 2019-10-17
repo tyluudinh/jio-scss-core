@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="082d5841-5a77-4eb8-a4ad-a9c90a9363e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AvenirNext-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AvenirNext-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AvenirNext-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AvenirNext-DemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AvenirNext-DemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AvenirNext-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AvenirNext-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AvenirNext-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AvenirNext-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AvenirNext-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/AvenirNext-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/social-icon-font/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/social-icon-font/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/social-icon-font/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/social-icon-font/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/social-icon-font/selection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/social-icon-font/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/social-icon-font/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/add-image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/back-m.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/check-invalid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/check-valid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/clear.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/commission-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/dashboard-m-active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/dashboard-m.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/done.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/edit-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/eye-hidden.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/info-red.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/jiohealth.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/logout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/more-info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/order-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/payment-type.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/plus-green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/prescription-image-m.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/prescription-image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/prescription-m-active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/prescription-m.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/prescription.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/previous.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/product.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/profile-m-active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/profile-m.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/select-indicator.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/spinner-v2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/sub.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/user-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/vi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_breakpoint.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_color.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_dimension.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_font.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_overwrite.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_placholder-loading.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_typo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/font-awesome/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/font-awesome/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/font-awesome/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/font-awesome/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/font-awesome/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/font-awesome/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/font-awesome/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/font-awesome/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/font-awesome/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/font-awesome/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/font-awesome/_shims.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/font-awesome/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/font-awesome/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/fontawesome.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_custom.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_breakpoint.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_button.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8951" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>assets</find>
+      <find>asset</find>
+      <find>images</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>..</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/sass</dir>
+      <dir>$PROJECT_DIR$/icons</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/core.scss" />
+        <option value="$PROJECT_DIR$/sass/_font.scss" />
+        <option value="$PROJECT_DIR$/sass/_form.scss" />
+        <option value="$PROJECT_DIR$/sass/_image.scss" />
+        <option value="$PROJECT_DIR$/sass/_block.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/jio-scss-core.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jio-scss-core" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jio-scss-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/icons" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/icons" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="082d5841-5a77-4eb8-a4ad-a9c90a9363e9" name="Default Changelist" comment="" />
+      <created>1571283627847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571283627847</updated>
+      <workItem from="1571283630258" duration="707000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="707000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="62">
+            <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icons/spinner-v2.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_font.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_typo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3724" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_form.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1084">
+          <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_common.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_dimension.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1514" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_image.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_table.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3157" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_placholder-loading.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_overwrite.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1953">
+          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_block.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#447#1988#0" />
+            <element signature="e#2003#2670#0" />
+            <element signature="e#2685#4498#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_breakpoint.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/fontawesome.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8951" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
